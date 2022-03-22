@@ -1,6 +1,6 @@
-<h1 align='center'>Register-of-receipts-and-payments</h1>
+<h1 align='center'>Register-of-payments</h1>
 
-<h3 align='center'>Create form that includes payments and receipts, returning the final balance .</h3>
+<h3 align='center'>Create form that includes payments, returning the final balance .</h3>
 
 <h4 align='center'>🚧README project 🚀 under construction...🚧</h4>
   
