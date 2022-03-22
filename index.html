@@ -4,42 +4,34 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Orçamento</title>
+    <title>Registrador</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
 
 </head>
 
-<body>
+<body class="container">
 
-    <h1 class="titulo">Orçamento</h1>
+    <h1 class="titulo">Registrador</h1>
 
-    <form class="formulario">
+    <form class="formulario" onsubmit="registroControle.adiciona(event)">
 
-        <div class="formulario__campo">
-            <label for="data">Data</label>
-            <input type="date" id="data" class="formulario__input" required autofocus />
-        </div>
+        <fieldset class="formulario__campo">
+            <label class="campo__texto" for="descricao">Descrição</label>
+            <input class="campo__input" type="text" id="descricao" required autofocus />
+        </fieldset>
 
-        <div class="formulario__campo">
-            <label for="quantidade">Descrição</label>
-            <input type="text" id="descricao" class="formulario__input" required />
-        </div>
+        <fieldset class="formulario__campo">
+            <label class="campo__texto" for="valor">valor</label>
+            <input class="campo__input" type="number" id="valor" placeholder="0.00" required />
+        </fieldset>
 
-        <div class="formulario__campo">
-            <label for="valor">Valor</label>
-            <input type="number" id="valor" class="formulario__input" min="0.01" step="0.01" value="0.0" required />
-        </div>
-
-        <button class="formulario__botao" type="submit">Incluir</button>
+        <button class="formulario__botao" type="submit">adicionar</button>
     </form>
-
-    <div class="text-center">
-        <button class="formulario__botao" type="button">
-            Apagar
-        </button>
     </div>
+    <br>
+    <br>
 
     <script src="main.js"></script>
 </body>
