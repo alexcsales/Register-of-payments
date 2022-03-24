@@ -2,11 +2,11 @@
 
 <h3 align='center'>Create form that includes payments, returning the final balance .</h3>
 
-<h4 align='center'>🚧README project 🚀 under construction...🚧</h4>
+<h4 align='center'README project 🚀</h4>
   
 ### ⚙ Features
 - [x] create table that the user puts the data in<br>
-- [ ] create data record table
+- [x] create data record table
 
 <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>
